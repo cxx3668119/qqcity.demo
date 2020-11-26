@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cxx</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/city.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <script src="./js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+  <div class="host">
+    <div class="box">
+      <!-- 背景城市 -->
+      <div class="hotcity">
+        <div class="contain">
+          <div class="slice">
+            <div class="slice1 shenzhen"></div>
+            <div class="slice1 beijing"></div>
+          </div>
+          <div class="slice">
+            <div class="slice1 shanghai"></div>
+            <div class="slice1 tianjin"></div>
+          </div>
+          <div class="slice">
+            <div class="slice1 guangzhou"></div>
+            <div class="slice1 fanhui"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 点击后弹出城市框 -->
+      <div class="city container animated fadeInRight">
+        <div class="spell"></div>
+        <div class="CN"></div>
+        <div class="title">2018城市年轻指数</div>
+        <!-- 圆盒子 -->
+        <div class="circular">
+          <!-- 圈中数字 -->
+          <div class="number">87</div>
+        </div>
+        <img src="./img/10.1-1/return.png" alt="" class="return">
+        <img src="./img/10.1-1/close.png" alt="" class="close">
+      </div>
+      <!-- btn按钮 -->
+      <div class="btn"></div>
+      <!-- 导航栏 -->
+      <div class="nav">
+        <ul class="firstul">
+          <li><span class="three"></span><span class="content1 btn1">一线城市</span></li>
+          <div class="scroll1 hidden animated flipInX">
+            <table border="1" cellspacing="0" border-collapse="collapse" class="table1 tab1">
+              <tr>
+                <td><span></span>广东 深圳</td>
+                <td><span></span>北京 北京</td>
+              </tr>
+              <tr>
+                <td><span></span>上海 上海</td>
+                <td><span></span>天津 天津</td>
+              </tr>
+              <tr>
+                <td><span></span>广东 广州</td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <li class="lis"><span class="three"></span><span class="content1 btn2">二线城市</span></li>
+          <div class="scroll2 hidden two animated flipInX">
+            <table border="1" cellspacing="0" border-collapse="collapse" class="table1 tab2 ">
+              <tr>
+                <td><span></span>江西 南昌</td>
+                <td><span></span>江苏 苏州</td>
+              </tr>
+              <tr>
+                <td><span></span>湖北 武汉</td>
+                <td><span></span>河南 郑州</td>
+              </tr>
+              <tr>
+                <td><span></span>浙江 杭州</td>
+                <td><span></span>广西 南宁</td>
+              </tr>
+              <tr>
+                <td><span></span>陕西 西安</td>
+                <td><span></span>安徽 合肥</td>
+              </tr>
+              <tr>
+                <td><span></span>湖南 长沙</td>
+                <td><span></span>广东 东莞</td>
+              </tr>
+              <tr>
+                <td><span></span>山西 太原</td>
+                <td><span></span>浙江 宁波</td>
+              </tr>
+              <tr>
+                <td><span></span>山东 济南</td>
+                <td><span></span>福建 福州</td>
+              </tr>
+              <tr>
+                <td><span></span>广东 佛山</td>
+                <td><span></span>江苏 南京</td>
+              </tr>
+              <tr>
+                <td><span></span>四川 成都</td>
+                <td><span></span>吉林 长春</td>
+              </tr>
+              <tr>
+                <td><span></span>重庆 重庆</td>
+                <td><span></span>辽宁 沈阳</td>
+              </tr>
+              <tr>
+                <td><span></span>辽宁 大连</td>
+                <td><span></span>山东 青岛</td>
+              </tr>
+            </table>
+          </div>
+          <li><span class="three"></span><span class="content1 btn3">三线城市</span></li>
+          <div class="scroll2 hidden san animated flipInX">
+            <table border="1" cellspacing="0" border-collapse="collapse" class="table1 tab2 ">
+              <tr>
+                <td><span></span>贵州 贵阳</td>
+                <td><span></span>海南 三亚</td>
+              </tr>
+              <tr>
+                <td><span></span>浙江 金华</td>
+                <td><span></span>河南 洛阳</td>
+              </tr>
+              <tr>
+                <td><span></span>海南 海口</td>
+                <td><span></span>浙江 嘉兴</td>
+              </tr>
+              <tr>
+                <td><span></span>福建 泉州</td>
+                <td><span></span>广东 惠州</td>
+              </tr>
+              <tr>
+                <td><span></span>湖南 长沙</td>
+                <td><span></span>广东 东莞</td>
+              </tr>
+              <tr>
+                <td><span></span>山西 太原</td>
+                <td><span></span>浙江 宁波</td>
+              </tr>
+              <tr>
+                <td><span></span>山东 济南</td>
+                <td><span></span>福建 福州</td>
+              </tr>
+              <tr>
+                <td><span></span>广东 佛山</td>
+                <td><span></span>江苏 南京</td>
+              </tr>
+              <tr>
+                <td><span></span>四川 成都</td>
+                <td><span></span>吉林 长春</td>
+              </tr>
+              <tr>
+                <td><span></span>重庆 重庆</td>
+                <td><span></span>辽宁 沈阳</td>
+              </tr>
+              <tr>
+                <td><span></span>辽宁 大连</td>
+                <td><span></span>山东 青岛</td>
+              </tr>
+            </table>
+          </div>
+          <li><span class="three"></span><span class="content1 btn4">四线城市</span></li>
+          <div class="scroll2 hidden four animated flipInX">
+            <table border="1" cellspacing="0" border-collapse="collapse" class="table1 tab2 ">
+              <tr>
+                <td><span></span>云南 曲靖</td>
+                <td><span></span>河南 安阳</td>
+              </tr>
+              <tr>
+                <td><span></span>山西 晋中</td>
+                <td><span></span>河北 秦皇岛</td>
+              </tr>
+              <tr>
+                <td><span></span>山东 枣庄</td>
+                <td><span></span>福建 宁德</td>
+              </tr>
+              <tr>
+                <td><span></span>河北 邢台</td>
+                <td><span></span>山东 日照</td>
+              </tr>
+              <tr>
+                <td><span></span>河南 周口</td>
+                <td><span></span>山西 吕梁</td>
+              </tr>
+              <tr>
+                <td><span></span>山西 太原</td>
+                <td><span></span>浙江 宁波</td>
+              </tr>
+              <tr>
+                <td><span></span>山东 济南</td>
+                <td><span></span>福建 福州</td>
+              </tr>
+              <tr>
+                <td><span></span>广东 佛山</td>
+                <td><span></span>江苏 南京</td>
+              </tr>
+              <tr>
+                <td><span></span>四川 成都</td>
+                <td><span></span>吉林 长春</td>
+              </tr>
+              <tr>
+                <td><span></span>重庆 重庆</td>
+                <td><span></span>辽宁 沈阳</td>
+              </tr>
+              <tr>
+                <td><span></span>辽宁 大连</td>
+                <td><span></span>山东 青岛</td>
+              </tr>
+            </table>
+          </div>
+          <li><span class="three"></span><span class="content1 btn5">五线城市</span></li>
+          <div class="scroll2 hidden five animated flipInX">
+            <table border="1" cellspacing="0" border-collapse="collapse" class="table1 tab2 ">
+              <tr>
+                <td><span></span>甘肃 庆阳</td>
+                <td><span></span>新疆 伊犁州</td>
+              </tr>
+              <tr>
+                <td><span></span>江西 抚州</td>
+                <td><span></span>甘肃 平凉</td>
+              </tr>
+              <tr>
+                <td><span></span>河南 鹤壁</td>
+                <td><span></span>安徽 亳州</td>
+              </tr>
+              <tr>
+                <td><span></span>四川 广安</td>
+                <td><span></span>湖南 湘西州</td>
+              </tr>
+              <tr>
+                <td><span></span>河南 漯河</td>
+                <td><span></span>广西 北海</td>
+              </tr>
+              <tr>
+                <td><span></span>广东 潮州</td>
+                <td><span></span>贵州 黔东南州</td>
+              </tr>
+              <tr>
+                <td><span></span>山东 济南</td>
+                <td><span></span>福建 福州</td>
+              </tr>
+              <tr>
+                <td><span></span>广东 佛山</td>
+                <td><span></span>江苏 南京</td>
+              </tr>
+              <tr>
+                <td><span></span>四川 成都</td>
+                <td><span></span>吉林 长春</td>
+              </tr>
+              <tr>
+                <td><span></span>重庆 重庆</td>
+                <td><span></span>辽宁 沈阳</td>
+              </tr>
+              <tr>
+                <td><span></span>辽宁 大连</td>
+                <td><span></span>山东 青岛</td>
+              </tr>
+            </table>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="./js/btn.js"></script>
+  <script src="./js/hotcity.js"></script>
+</body>
+
+</html>

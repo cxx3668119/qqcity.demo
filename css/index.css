@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.hidden{
+  display: none;
+}
+.box{
+  position: relative;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 1080px;
+  height: 3840px;
+  background: url(../img/10.0/bg.jpg);
+  overflow: hidden;
+}
+.hotcity{
+  position: absolute;
+  top: 1560px;  
+  left: 69px;
+  background: url(../img/10.0/hot_city.png);
+  width: 942px;
+  height: 1395px;
+  cursor:pointer;
+  
+}
+.contain{
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  height: 1393px;
+  padding: 2px;
+}
+.slice{
+  display: flex;
+  flex: 1;
+}
+.slice1{
+  flex: 1;
+}
+.btn{
+  position: absolute;
+  top: 1270px;
+  left: 168px;
+  width: 743px;
+  height: 239px;
+  background: url(../img/10.0/btn_1.png);
+  cursor:pointer;
+}
+
+.nav ul li{
+  position: relative;
+  width: 480px;
+  height: 80px;
+  border-bottom: 2px solid  #00ffff;
+  margin-left: 54px;
+  line-height: 80px;
+  cursor:pointer
+}
+.firstul{
+  position: absolute;
+  /* display: flex; */
+  width: 580px;
+  top: 1450px;
+  left: 244.5px;
+  box-sizing: border-box;
+  border: 1px solid #48ecee;
+  align-items: center;
+  /* flex-direction: column; */
+  background: rgb(29, 38, 87, 0.9);
+  color: #00ffff;
+  box-shadow: 0px 0px 3px #4e84ff;
+  border-radius: 30px;
+  font-size: 26px;
+  display: none;
+  position: relative;
+}
+/* 文本前图表 */
+.firstul .three{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  display: block;
+  margin-right: 50px;
+  width: 26px;
+  height: 19px;
+  background: url(../img/10.0/san.png) no-repeat;
+  background-size: cover; 
+}
+/* 小li文本 */
+.firstul .content1{
+  position: absolute;
+  top: 0;
+  left:50px;
+  width: 480px;
+  height: 80px;
+}
+/* 去掉最后一个li的下划线 */
+.firstul li:last-child{
+  border-bottom:none;
+}
+td{
+  width: 212px;
+  height: 44px;
+}
+.table1{
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 430px;
+  align-items: center;
+  border: #00ffff;  
+  color: #fff;
+  font-size: 20px;
+}
+.table1 span{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../img/10.0/choose.png);
+  margin: 0 12px;
+}
+.scroll2{
+  overflow-y:scroll !important;
+  width: 550px;
+  height: 270px; 
+ 
+}
+.scroll2::-webkit-scrollbar { 
+  width:20px;
+  height:2px; 
+  background-color: #1c2656;
+}
+.scroll2::-webkit-scrollbar-thumb{
+  display:block;
+  width:6px;
+  margin:0 auto;
+  border-radius: 10px;
+  background:#00ffff;/*内层轨道*/
+ }

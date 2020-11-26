@@ -1,0 +1,94 @@
+.city {
+  position: relative;
+  top: 1560px;
+  left: 69px;
+  width: 942px;
+  height: 1231px;
+  background: url(../img/10.1-1/bg_2.png);
+  display: none;
+}
+
+@font-face {
+  font-family: "pingyin";
+  src: url('../fonts/兰亭黑简.TTF');
+}
+
+@font-face {
+  font-family: 'TTTGB-Medium';
+  src: url('../fonts/TTTGB-Medium.otf');
+}
+
+.spell {
+  width: 100%;
+  height: 150px;
+  font-family: "pingyin";
+  display: flex;
+  align-items: flex-end;
+  font-size: 60px;
+  color: #FFF;
+  font-style: italic;
+  justify-content: center;
+  letter-spacing: 15px;
+  padding-left: 10px;
+}
+
+.CN {
+  width: 100%;
+  height: 100px;
+  font-family: 'TTTGB-Medium';
+  display: flex;
+  align-items: flex-end;
+  font-size: 68px;
+  color: #3befff;
+  justify-content: center;
+  letter-spacing: 30px;
+  /* -webkit-mask: linear-gradient(top, #3befff, transparent); */
+}
+
+.title {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  letter-spacing: 10px;
+  font-size: 60px;
+  color: #0df6ff;
+  text-shadow: 0 0 38px #ff67d9;
+}
+
+.circular {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../img/10.1-1/circle.png) center center / 100% 100% no-repeat;
+}
+
+.number {
+  font-family: 'TTTGB-Medium';
+  color: #d75d88;
+  font-size: 160px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.return {
+  height: 220px;
+  width: 240px;
+  position: absolute;
+  top: 1200px;
+  left: 20px;
+}
+
+.close {
+  height: 220px;
+  width: 240px;
+  position: absolute;
+  top: 1200px;
+  right: 20px;
+}
